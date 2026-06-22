@@ -29,13 +29,14 @@ function SectionA() {
   // A1.
   // Declare a variable called myName and assign it your first name as a string.
   // Declare a variable called myCity and assign it the city you are from.
-
-
+let myName = 'Angel'
+let myCity = 'New York'
   // A2.
   // Inside the return below, add a <p> tag that displays your name.
   // Add a second <p> tag that displays your city.
   // Embed each variable into the JSX rather than typing the value directly.
   //
+
   // Hint: How do you embed a JavaScript value inside JSX?
   //      If you don't embed the value correctly,
   //      React treats the text literally and prints the
@@ -58,11 +59,14 @@ function SectionA() {
   //
   //          answer:
 
+
   return (
     <div>
       <h2>Section A — JSX Basics</h2>
       {/* Your output goes below this line */}
-
+<p>Angel</p>
+    <p>New York</p>
+    <p>my name: {myName.toUpperCase()}</p>
     </div>
   )
 }
@@ -111,6 +115,7 @@ function SectionB() {
     <div>
       <h2>Section B — Your Own Components</h2>
       {/* Render your components below */}
+      <p>PageHeader</p>
 
     </div>
   )
